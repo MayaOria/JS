@@ -1,0 +1,14 @@
+div{
+    height: 32px;
+    width: 32px;
+}
+
+td {
+    border : 2px black solid;
+}
+
+div:nth-child(6){
+    width: 64px;
+    height: 64px;
+    background-color: aqua;
+}

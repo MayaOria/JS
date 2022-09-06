@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercice sur les Formes</title>
+</head>
+<body>
+    <h1>Enoncé :</h1>
+    <p>
+        <b>"Calcul de forme géometrique"</b> <br>
+        Réalisez une page web qui permet de calculer l'aire et le périmètre de forme.<br>
+        Les formes géométriques sont sélectionnables via une balise "select" (menu déroulant) et les choix possibles sont : <br>
+        <ul> 
+        <li> Rectangle</li>
+        <li>Triangle Rectangle</li>
+        <li>Carré</li>
+        <li>Cercle</li>
+        </ul><br>
+        Les valeurs à encoder par l'utilisateur pour les différents choix sont : 
+        <ul>
+        <li>Rectangle : Hauteur et Largeur</li>
+        <li>Triangle : Base et Hauteur</li>
+         <li>Carré : Un Coté</li>
+         <li>Cercle : Le Rayon</li>
+         </ul><br>
+        L'utilisateur peut encoder les valeurs via des inputs de type texte.<br>
+        <em>Bonus : Affiche le nombre d'input adapté au choix de l'utilisateur.</em>
+    </p>
+<br>
+<br>
+    <div>
+        <label formes style="color: blue">Choisissez votre forme:</label>
+
+        <select name="formes" id="formes">
+          <option value="rectangle">Rectangle</option>
+          <option value="triangle">Triangle Rectangle</option>
+          <option value="carre">Carré</option>
+          <option value="cercle">Cercle</option>
+        </select>
+    </div>
+<br>
+<br>
+    <div>
+        <h3>Entrez les valeurs nécessaires ici :</h3>
+    <div>
+        <h3>Rectangle :</h3>
+            
+            <div>
+                <input type="text" placeholder="Hauteur" id="hauteurRectangle">
+                <input type="text" placeholder ="Largeur" id="largeur">
+            </div>
+    </div>
+            
+    <div>
+        <h3>Triangle Rectangle :</h3>
+            <div>
+                <input type="text" placeholder="Hauteur" id="hauteurTriangle">
+                <input type="text" placeholder="Base" id="base">
+            </div>
+    </div>
+
+    <div>
+        <h3>Carré :</h3>
+            <div>
+                <input type="text" placeholder="Côté" id="cote">
+            </div>
+    </div>
+
+    <div>
+        <h3>Cercle :</h3>
+            <div>
+                <input type="text" placeholder="Rayon" id="rayon">
+                <input type="button" value="Envoyer" onclick="pressCalcul()">
+            </div>
+    </div>
+    
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+    
+
+    <script type="text/javascript" src="scripts/main.js" ></script>
+</body>
+</html>

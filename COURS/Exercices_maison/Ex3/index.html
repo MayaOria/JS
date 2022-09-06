@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Demo color picker</title>
+</head>
+<body>
+    <h1>Voici un color picker réalisé en JavaScript !</h1>
+    <div>Rouge : <input type = "range" id = "red"></div>
+    <div>Vert: <input type = "range" id = "green"></div>
+    <div>Bleu: <input type = "range" id = "blue"></div>
+
+    <div><input id="refreshButton" type="button" value="Actualiser" onclick ="getHexaColor()"></div>
+    
+    <div>
+        <h2>Résultat :</h2>
+        <input id = "resultColor" type="color">
+    </div>
+    
+    
+
+    <script type="text/javascript" src="./scripts/main.js"></script>
+</body>
+</html>

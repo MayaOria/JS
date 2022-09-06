@@ -1,4 +1,4 @@
-div{
+table tr td div{
     height: 32px;
     width: 32px;
 }
@@ -7,8 +7,48 @@ td {
     border : 2px black solid;
 }
 
-div:nth-child(6){
-    width: 64px;
-    height: 64px;
+
+.reset{
+    background-color: white;
+}
+
+.color0{
     background-color: aqua;
 }
+
+.color1{
+    background-color:aquamarine;
+}
+
+.color2{
+    background-color: bisque;
+}
+
+.color3{
+    background-color:burlywood;
+}
+
+.color4{
+    background-color:darkkhaki
+}
+
+.color6{
+    background-color: mediumblue;
+}
+
+.color7{
+    background-color:mediumorchid;
+}
+
+.color8{
+    background-color: mediumpurple;
+}
+
+.color9{
+    background-color: mediumslateblue;
+}
+
+.color10{
+    background-color: mediumvioletred;
+}
+

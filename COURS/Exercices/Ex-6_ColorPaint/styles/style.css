@@ -3,9 +3,17 @@ table tr td div{
     width: 32px;
 }
 
+.currentColor {
+
+    width:64px;
+    height:64px;
+
+}
+
 td {
     border : 2px black solid;
 }
+
 
 
 .reset{
@@ -29,7 +37,7 @@ td {
 }
 
 .color4{
-    background-color:darkkhaki
+    background-color:darkkhaki;
 }
 
 .color6{
@@ -52,3 +60,62 @@ td {
     background-color: mediumvioletred;
 }
 
+.caractColor0{
+
+    color: aqua;
+
+}
+
+.caractColor1{
+
+    color: aquamarine;;
+
+}
+
+.caractColor2{
+
+    color:  bisque;
+
+}
+
+.caractColor3{
+
+    color: burlywood;
+
+}
+
+.caractColor4{
+
+    color: darkkhaki;
+
+}
+
+.caractColor5{
+
+    color: mediumblue;
+
+}
+
+.caractColor6{
+
+    color: mediumorchid;
+
+}
+
+.caractColor7{
+
+    color: mediumpurple;
+
+}
+
+.caractColor8{
+
+    color: mediumslateblue;
+
+}
+
+.caractColor9{
+
+    color: mediumvioletred;
+
+}

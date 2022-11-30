@@ -1,28 +1,32 @@
-window.onload = function () {
-
-$('button').click(function(){
 
 
-    let $valInput = $('input').val();
-    let $messageErreur = $('<div>Veuillez remplir le champ</div>');
 
-    console.log($valInput);
-    console.log($messageErreur);
 
-    if ($valInput.trim() == ''){
-        $messageErreur.insertAfter($('input'));
-    }
+// window.onload = function () {
 
-    else{
-        let $li = $('<li>' + $valInput + '</li>');
-        $('ul').append($li);
-    }
+// $('button').click(function(){
+
+
+//     let $valInput = $('input').val();
+//     let $messageErreur = $('<div>Veuillez remplir le champ</div>');
+
+//     console.log($valInput);
+//     console.log($messageErreur);
+
+//     if ($valInput.trim() == ''){
+//         $messageErreur.insertAfter($('input'));
+//     }
+
+//     else{
+//         let $li = $('<li>' + $valInput + '</li>');
+//         $('ul').append($li);
+//     }
         
     
     
-})
+// })
 
-}
+// }
 
 // window.onload = function () {
 

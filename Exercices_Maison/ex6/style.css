@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+h1, h2{
+    padding : 1rem;
+}
+.container
+{
+    width : 1000px;
+    height : 100vh;
+    margin: auto;
+}
+
+.choose-container
+{
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    margin-top : 1rem;
+    margin-bottom: 3rem;;
+}
+
+.choose-row
+{
+    display: flex;
+    flex-direction: row;
+    gap: 1rem;
+}
+
+.choose {
+    width: 1rem;
+    height: 1rem;
+    border: 1px solid black;
+}
+
+.choosen {
+    width: 2rem;
+    height: 2rem;
+    border: 1px solid black;
+    margin-top : -1.5rem;
+}
+
+.draw-container
+{
+    display: flex;
+    flex-direction: column;
+    /* gap: 1rem; */
+    margin-top : 1rem;
+    margin-bottom: 3rem;
+    
+}
+
+.draw-row
+{
+    display: flex;
+    flex-direction: row;
+    /* gap: 0.1rem; */
+}
+
+.draw {
+    width: 1rem;
+    height: 1rem;
+    border: 0.1px solid black;
+    border-collapse: collapse;
+}

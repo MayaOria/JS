@@ -1,0 +1,41 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+*body{
+    font-size: 1rem;
+    font-family: 'Bitter', serif;
+}
+
+h1 {
+    text-align: center;
+}
+.container{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    height: 404px;
+    /* border: 2px solid rgb(77, 77, 184); */
+    margin: auto;
+}
+
+.row{
+    display: flex;
+    flex-direction: row;
+    flex: auto;
+}
+
+
+button{
+
+    height: 100px;
+    width: 100px;
+    border: 2px solid rgb(77, 77, 184);
+    text-align: center;
+}
+
+.result {
+    width : 200px;
+}

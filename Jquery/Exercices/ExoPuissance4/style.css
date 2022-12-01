@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.rouge {
+
+    background-color: red;
+    
+
+}
+
+.bleu{
+    background-color: blue;
+    
+}
+
+.div-colonne{
+    margin :auto;
+    margin-top: 20px;
+    height: 200px;
+    width: 32px;
+    border: 1px solid black;
+}

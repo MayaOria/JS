@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js" defer></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Liste de courses</h1>
+        <div class="container-item">
+            <label for="item">À acheter ? </label>
+            <input type="text" name="item" id="item">
+            <label for="quantity">Quantité ? </label>
+            <input type="number" name="quantity" id="quantity">
+            <label for="price">Prix ? </label>
+            <input type="number" name="price" id="price">
+            <button id="add">AJOUTER</button>
+        </div>
+        
+        <div class="list-container">
+            <h2>Ma liste de courses</h2>
+            <ul id="list">
+                <li id="toHide">Rien pour le moment...</li>
+            </ul>
+            <div id="totalPrice"></div>
+                
+        </div>
+    </div>
+</body>
+</html>

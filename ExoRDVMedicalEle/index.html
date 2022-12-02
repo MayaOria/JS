@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Prendre un rendez-vous</title>
+    <script src="https://kit.fontawesome.com/5bb1968648.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./style/style.css">
+    <script src="./scripts/main.js"></script>
+  </head>
+  <body>
+    <main>
+      <h1>Prise de rendez-vous médical</h1>
+      <p>Remplissez vos données personnelles et nous renviendrons vers vous.</p>
+      <form>
+        <div>
+          <label for="civilite">Civilité</label>
+          <select name="civilite">
+            <option value="Madame">Madame</option>
+            <option value="Monsieur">Monsieur</option>
+            <option value="Autre">Autre</option>
+          </select>
+        </div>
+        <div>
+          <label for="nom">Nom</label
+          ><input type="text" name="nom" id="nom" required />
+        </div>
+        <div>
+          <label for="prenom">Prénom</label
+          ><input type="text" name="prenom" id="prenom" required />
+        </div>
+        <div>
+          <label for="gsm">Numéro de GSM</label
+          ><input type="tel" name="gsm" id="gsm" pattern="\+?[0-9#*+]+" placeholder="ex. 0498653269" required />
+        </div>
+        <div>
+          <label for="email">Adresse email</label
+          ><input type="email" id="email" name="email" pattern="[_\-a-zA-Z0-9\.\+]+@[a-zA-Z0-9](\.?[\-a-zA-Z0-9]*[a-zA-Z0-9])*" placeholder="ex. hello@world.com" required />
+        </div>
+        <div>
+          <label for="date">Selectionnez une date de rendez-vous</label>
+          <input type="date" name="date" id="date" required />
+        </div>
+        <div>
+          <label for="heure">Selectionnez une heure de rendez-vous</label>
+          <input type="time" name="heure" id="heure" min="09:00" max="18:00" required />
+        </div>
+        <p class="btn">Envoyer le formulaire</p>
+      </form>
+    </main>
+    <div id="resume">
+      <table></table>
+    </div>
+  </body>
+</html>
